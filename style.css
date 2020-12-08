@@ -1,1 +1,62 @@
 /* put your css here */
+
+body{ 
+  margin:  0px;
+}
+p {
+  margin: 2px;
+}
+
+.h100 {
+  height: 100%;
+}
+.container { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat {
+  display: flex;
+  align-items: flex-start;
+}
+.chat-msg-section {
+  height: 100%;
+}
+
+.refresh {
+  padding: 8px;
+}
+
+.chat-msg-bar {
+  align-self: flex-end;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 125px;
+}
+.column {
+  flex-direction: column;
+}
+.r-row {
+  flex-direction: row-reverse;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.inputbox {
+  display: grid;
+  grid-template-columns: 75px 175px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box1 {
+  padding: 4px;
+}
+
+.btn {
+  margin: 10px;
+}
